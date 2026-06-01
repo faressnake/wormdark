@@ -22,8 +22,9 @@ from flask import Flask, request
 TOKEN = "8231074513:AAFK7udtKPa5GR7x-YmddK8JVOEg4JFYl20" 
 ADMIN_CHAT_ID = 5179688953  # ضع معرفك الرقمي هنا
 bot = telebot.TeleBot(TOKEN, parse_mode=None)
+# ==================== إعدادات Flask ====================
 app = Flask(__name__)
-WEBHOOK_URL = "https://YOUR-APP-NAME.onrender.com/webhook"  # <- أضف هذا
+WEBHOOK_URL = "https://wormdark.onrender.com/webhook"  # اسم التطبيق حقك  # <- أضف هذا
 # معلومات المطور
 DEVELOPER_USERNAME = "@Hellyeah619"
 
